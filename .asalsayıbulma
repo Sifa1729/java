@@ -1,0 +1,19 @@
+//ASAL SAYI BULMA 
+boolean asalmi=false;
+System.out.println("lütfen sayı gir");
+int sayi=subat.nextInt();
+for (int i=2; i<sayi; i++) {
+	if (sayi%i==0) {
+		asalmi=false;
+		break;
+	}else {
+		asalmi=true;
+	}
+}
+if(asalmi) {
+	System.out.println("girdiğiniz " +sayi+ " sayısı asaldır.");
+} else {
+	System.out.println("girdiğiniz " +sayi+ " sayısı asal değildir.");
+}
+
+
